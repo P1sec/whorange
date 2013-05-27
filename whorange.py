@@ -154,7 +154,7 @@ class Whohas_sender:
     def close(self):
         self.soc.close()
         if self.spoof_mac:
-            print "restauring real mac %s" % self.real_mac
+            print "restoring real mac %s" % self.real_mac
             subprocess.call(["ifconfig", self.iface, "down"])
             subprocess.call(["ifconfig", self.iface, "hw", "ether", self.real_mac])
             subprocess.call(["ifconfig", self.iface, "up"])
