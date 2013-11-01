@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 # whorange - Discover network IP range by sending ARP whohas to various subnets/ips
-# 2013 Laurent Ghigonis <laurent@p1sec.com>
+# 2013 Laurent Ghigonis at P1 Security <laurent@p1sec.com>
 # Inspired from 'Erethon' arpois.py and 'TheBits' python-arp-ping
 
 # This program is free software: you can redistribute it and/or modify
