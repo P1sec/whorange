@@ -2,7 +2,7 @@
 
 ### Example usage:
 
-```bash
+```
 sudo ./tools/whorange.py wlan0
 <newmac=24:77:03:52:e6:34>
 [-] 1. scanning known classB, known classC, known IPs
